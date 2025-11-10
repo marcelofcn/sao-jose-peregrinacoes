@@ -12,11 +12,12 @@ except Exception as e:
     print(f"❌ {e}")
     sys.exit(1)
 
-# Caminho base correto para o GitHub Pages
-app.config['FREEZER_BASE_URL'] = 'https://marcelofcn.github.io/sao-jose-peregrinacoes/'
-app.config['FREEZER_RELATIVE_URLS'] = True  # <-- ESSENCIAL
+# Garante que a pasta estática seja incluída no build
 app.config['FREEZER_DESTINATION'] = 'docs'
+app.config['FREEZER_RELATIVE_URLS'] = True
+app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
 app.config['FREEZER_REMOVE_EXTRA_FILES'] = False
+app.config['FREEZER_IGNORE_MIMETYPE_WARNINGS'] = True
 
 freezer = Freezer(app)
 
