@@ -33,7 +33,8 @@ def home():
             "img": r["img"],
             "title": r["title"],
             "date": f"{r['start']} a {r['end']}",
-            "url": f"/roteiro/{r['id']}/"
+            "url": f"{app.config['FREEZER_BASE_URL']}/roteiro/{r['id']}/"
+
         }
         for r in ROTEIROS_DB.values()
         if r["categoria"] == "espiritualidade"
@@ -45,7 +46,8 @@ def home():
             "img": r["img"],
             "title": r["title"],
             "date": f"{r['start']} a {r['end']}",
-            "url": f"/roteiro/{r['id']}/"
+            "url": f"{app.config['FREEZER_BASE_URL']}/roteiro/{r['id']}/"
+
         }
         for r in ROTEIROS_DB.values()
         if r["categoria"] == "turistico"
