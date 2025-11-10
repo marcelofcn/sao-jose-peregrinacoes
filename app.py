@@ -37,7 +37,8 @@ def home():
             "img": r["img"],
             "title": r["title"],
             "date": f"{r['start']} a {r['end']}",
-            "url": f"{app.config['FREEZER_BASE_URL']}/roteiro/{r['id']}/"
+            "url": f"{BASE_PATH}/roteiro/{r['id']}/"
+
 
         }
         for r in ROTEIROS_DB.values()
@@ -50,7 +51,8 @@ def home():
             "img": r["img"],
             "title": r["title"],
             "date": f"{r['start']} a {r['end']}",
-            "url": f"{app.config['FREEZER_BASE_URL']}/roteiro/{r['id']}/"
+            "url": f"{BASE_PATH}/roteiro/{r['id']}/"
+
 
         }
         for r in ROTEIROS_DB.values()
