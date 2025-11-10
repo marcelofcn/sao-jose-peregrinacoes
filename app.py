@@ -2,14 +2,7 @@
 from flask import Flask, render_template, send_from_directory, url_for
 import os, json
 
-BASE_PATH = '/sao-jose-peregrinacoes'
-
-@app.context_processor
-def inject_base_path():
-    return dict(BASE_PATH=app.config.get('BASE_PATH', ''))
-
-
-app = Flask(__name__, static_url_path='/sao-jose-peregrinacoes/static')
+app = Flask(__name__,)
 app.config['BASE_PATH'] = '/sao-jose-peregrinacoes'
 app.config['FREEZER_RELATIVE_URLS'] = True
 app.config['FREEZER_DESTINATION'] = 'docs'
