@@ -16,20 +16,23 @@
         </a>
       </div>
 
-      <nav class="menu">
-        <a href="{{ BASE_PATH }}/">Início</a>
-        
-        <div class="dropdown">
-          <button class="dropbtn">Roteiros de Espiritualidade ▼</button>
-          <div class="dropdown-content">
-            <a href="../roteiros/espiritualidade/sao-jose/">São José Viagens</a>
-            <a href="../roteiros/espiritualidade/cancaonova/">Comunidade Canção Nova</a>
-          </div>
-        </div>
+<nav class="menu">
+  <a href="{{ BASE_PATH }}/">Início</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Roteiros de Espiritualidade ▼</button>
+    <div class="dropdown-content">
+      <a href="{{ BASE_PATH }}/roteiros/espiritualidade/sao-jose/">São José</a>
+      <a href="{{ BASE_PATH }}/roteiros/espiritualidade/cancaonova/">Canção Nova</a>
+    </div>
+  </div>
 
-        <a href="/roteiros-turisticos">Roteiros Turísticos</a>
-        <a href="#contato">Contato</a>
-      </nav>
+  <a href="{{ BASE_PATH }}/roteiros/turisticos/">Roteiros Turísticos</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+
+        
     </header>
 
     <main>
