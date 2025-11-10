@@ -22,9 +22,15 @@ app.config['FREEZER_IGNORE_MIMETYPE_WARNINGS'] = True
 freezer = Freezer(app)
 
 @freezer.register_generator
-def roteiro_detalhe():
-    for rid in ROTEIROS_DB.keys():
-        yield {'roteiro_id': int(rid)}
+def static_files():
+    """Gera URLs para todos os arquivos estáticos."""
+    for dirpath, _, filenames in os.walk(os.path.join(app.root_path, 'static')):
+        for filename in filenames:
+            path = os.path.relpath(os.path.join(dirpath, filename), app.root_path)
+            if path.startswith('static/'):
+                yield f'/{path}'
+
+
 
 if __name__ == '__main__':
     print("\n🚀 Gerando...\n")
