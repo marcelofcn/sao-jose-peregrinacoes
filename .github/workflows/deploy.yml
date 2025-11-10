@@ -1,11 +1,11 @@
-name: Build and Deploy Frozen Flask
+name: Docs and Deploy Frozen Flask
 
 on:
   push:
     branches: [ "main" ]
 
 jobs:
-  build:
+  docs:
     runs-on: ubuntu-latest
 
     steps:
