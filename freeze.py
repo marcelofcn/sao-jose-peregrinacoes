@@ -38,4 +38,22 @@ def detalhe_roteiro():
 if __name__ == '__main__':
     print("🚀 Gerando site estático...")
     freezer.freeze()
+    # 🔧 Ajuste de caminhos no HTML gerado (para GitHub Pages)
+import glob
+
+print("🔧 Corrigindo caminhos estáticos para o GitHub Pages...")
+for filepath in glob.glob('docs/**/*.html', recursive=True):
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Substitui caminhos absolutos por caminhos relativos ao repositório
+    content = content.replace('src="/static/', 'src="/sao-jose-peregrinacoes/static/')
+    content = content.replace('href="/static/', 'href="/sao-jose-peregrinacoes/static/')
+    content = content.replace('href="/roteiro/', 'href="/sao-jose-peregrinacoes/roteiro/')
+
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(content)
+
+    print("✅ Caminhos ajustados!")
+
     print("✅ Site estático gerado em /docs")
