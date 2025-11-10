@@ -3,7 +3,7 @@
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from flask_frozen import Freezer
+from Frozen-Flask  import Freezer
 
 try:
     from app import app, ROTEIROS_DB
