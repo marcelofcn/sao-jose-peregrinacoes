@@ -12,10 +12,10 @@ with open("roteiros.json", "r", encoding="utf-8") as f:
 
 
 # Caminho base correto para o GitHub Pages
-app.config['FREEZER_BASE_URL'] = 'https://marcelofcn.github.io/sao-jose-peregrinacoes/'
-app.config['FREEZER_RELATIVE_URLS'] = True  # <-- ESSENCIAL
+app.config['FREEZER_BASE_URL'] = 'https://marcelofcn.github.io/sao-jose-peregrinacoes'
+app.config['FREEZER_RELATIVE_URLS'] = True
 app.config['FREEZER_DESTINATION'] = 'docs'
-app.config['FREEZER_REMOVE_EXTRA_FILES'] = False
+
 
 # ==================== ROTAS ====================
 
