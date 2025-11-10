@@ -14,7 +14,7 @@ except Exception as e:
 
 # Configurações do freezer
 app.config['FREEZER_DESTINATION'] = 'docs'
-app.config['FREEZER_RELATIVE_URLS'] = True
+app.config['FREEZER_RELATIVE_URLS'] = False
 app.config['FREEZER_BASE_URL'] = 'https://marcelofcn.github.io/sao-jose-peregrinacoes'
 
 freezer = Freezer(app)
