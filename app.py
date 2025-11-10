@@ -3,9 +3,11 @@ from flask import Flask, render_template, send_from_directory, url_for
 import os, json
 
 app = Flask(__name__,)
-app.config['FREEZER_BASE_URL'] = 'https://marcelofcn.github.io/sao-jose-peregrinacoes'
-app.config['BASE_PATH'] = '/sao-jose-peregrinacoes'
-app.config['FREEZER_RELATIVE_URLS'] = True
+
+# Caminho base usado no GitHub Pages
+BASE_PATH = "/sao-jose-peregrinacoes"
+app.config['FREEZER_BASE_URL'] = f"https://marcelofcn.github.io{BASE_PATH}"
+app.jinja_env.globals['BASE_PATH'] = BASE_PATH
 app.config['FREEZER_DESTINATION'] = 'docs'
 
 # Corrige bug do Frozen-Flask + Flask 3.x
