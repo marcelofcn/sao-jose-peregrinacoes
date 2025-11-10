@@ -40,7 +40,7 @@
   <div class="cards">
     {% for t in roteiros_turisticos %}
       <article class="card">
-        <img src="{{ BASE_PATH }}/static/img/{{ roteiro.img }}" alt="{{ roteiro.title }}">
+        <img src="{{ BASE_PATH }}/static/img/{{ t.img }}" alt="{{ t.title }}">
         <h3>{{ t.title }}</h3>
         <p class="card-date">📅 {{ t.date }}</p>
         <a class="btn" href="{{ t.url }}">Ver detalhes</a>
