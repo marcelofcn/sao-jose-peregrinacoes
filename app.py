@@ -6,7 +6,8 @@ BASE_PATH = '/sao-jose-peregrinacoes'
 
 @app.context_processor
 def inject_base_path():
-    return dict(BASE_PATH=BASE_PATH)
+    return dict(BASE_PATH=app.config.get('BASE_PATH', ''))
+
 
 app = Flask(__name__, static_url_path='/sao-jose-peregrinacoes/static')
 app.config['BASE_PATH'] = '/sao-jose-peregrinacoes'
