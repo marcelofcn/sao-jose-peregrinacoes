@@ -35,6 +35,11 @@ def detalhe_roteiro():
     for r in app.ROTEIROS_DB.values():
         yield f"/roteiro/{r['id']}/"
 
+@freezer.register_generator
+def roteiro_detalhe():
+    for id in ROTEIROS_DB.keys():
+        yield {'roteiro_id': int(id)}
+
 if __name__ == '__main__':
     print("🚀 Gerando site estático...")
     freezer.freeze()
