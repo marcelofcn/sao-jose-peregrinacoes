@@ -12,7 +12,7 @@ except Exception as e:
     print(f"❌ {e}")
     sys.exit(1)
 
-app.config['FREEZER_DESTINATION'] = 'build'
+app.config['FREEZER_DESTINATION'] = 'docs'
 app.config['FREEZER_RELATIVE_URLS'] = False
 app.config['FREEZER_BASE_URL'] = 'https://marcelofcn.github.io/sao-jose-peregrinacoes/'
 
