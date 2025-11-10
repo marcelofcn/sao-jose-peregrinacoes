@@ -18,6 +18,8 @@ with open("roteiros.json", "r", encoding="utf-8") as f:
 
 # ==================== ROTAS ====================
 
+BASE_PATH = "/sao-jose-peregrinacoes"
+
 @app.route('/')
 def home():
     hero_texts = [
