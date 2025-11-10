@@ -25,13 +25,11 @@ if not os.path.exists('docs'):
 
 # 🔧 Garante inclusão dos arquivos estáticos
 @freezer.register_generator
-def static_files():
-    """Força o Frozen-Flask a incluir os arquivos estáticos."""
-    static_folder = os.path.join(app.root_path, 'static')
-    for dirpath, _, filenames in os.walk(static_folder):
-        for filename in filenames:
-            rel_path = os.path.relpath(os.path.join(dirpath, filename), app.root_path)
-            yield f'/{rel_path}'
+def detalhe_roteiro():
+    from app import ROTEIROS_DB
+    for r in ROTEIROS_DB.values():
+        yield f"/roteiro/{r['id']}/"
+
 
 if __name__ == '__main__':
     print("🚀 Gerando site estático...")
