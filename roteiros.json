@@ -1,0 +1,340 @@
+{
+  "1": {
+    "id": 1,
+    "categoria": "espiritualidade",
+    "empresa": "sao-jose",
+    "img": "img1.jpg",
+    "title": "Portugal e Itália",
+    "start": "03/02/2026",
+    "end": "16/02/2026",
+    "director": "Padre Gabriel Ribeiro e Padre Tiago Signorini",
+    "itinerario": [
+      "Dia 1 – Embarque no Brasil com destino a Roma",
+      "Dia 2 – Roma/Assis - Chegada em Roma e traslado para Assis",
+      "Dia 3 – Assis - Basílica de São Francisco e Santa Clara",
+      "Dia 4 – Cassia/Lanciano/San Giovanni Rotondo",
+      "Dia 5 – Monte Gargano/Roma",
+      "Dia 6 – Roma - Basílica de São Pedro",
+      "Dia 7 – Roma - City tour: Coliseu, Fontana di Trevi",
+      "Dia 8 – Roma/Lisboa/Fátima",
+      "Dia 9 – Fátima - Locais das aparições",
+      "Dia 10 – Fátima/Óbidos/Nazaré/Batalha/Lisboa",
+      "Dia 11 – Lisboa - City tour",
+      "Dia 12 – Lisboa - Dia livre",
+      "Dia 13 – Lisboa/Brasil - Retorno",
+      "Dia 14 – Chegada no Brasil"
+    ],
+    "incluso": [
+      "Bilhetes aéreos internacionais",
+      "Hospedagem em hotéis 4 estrelas",
+      "Café da manhã e jantar",
+      "Ônibus luxo",
+      "Guias locais e acompanhante São José",
+      "Seguro saúde e bagagem"
+    ],
+    "nao_incluso": [
+      "Excesso de bagagens",
+      "Despesas pessoais",
+      "Ingressos não especificados"
+    ],
+    "preco": "R$ 26.980,00"
+  },
+  "2": {
+    "id": 2,
+    "categoria": "turistico",
+    "empresa": "sao-jose",
+    "img": "img2.jpg",
+    "title": "Dinamarca, Noruega e Suécia",
+    "start": "04/03/2026",
+    "end": "18/03/2026",
+    "director": "Equipe São José",
+    "itinerario": [
+      "Dia 1 – Embarque no Brasil com destino a Copenhague",
+      "Dia 2 – Copenhague - Castelo de Frederiksborg",
+      "Dia 3 – City tour e cruzeiro para Oslo",
+      "Dia 4 – Fiordes da Noruega",
+      "Dia 5 – Glaciar Briksdal",
+      "Dia 6 – Bergen - Mercado de Peixes",
+      "Dia 7 – Oslo - Parque Vigeland",
+      "Dia 8 – Estocolmo - Gamla Stan",
+      "Dia 9 – Estocolmo - Museu Vasa",
+      "Dia 10 – Retorno ao Brasil"
+    ],
+    "incluso": [
+      "Bilhetes aéreos internacionais",
+      "Hospedagem 4 estrelas",
+      "Café da manhã e jantar",
+      "Transporte terrestre e marítimo",
+      "Guias locais",
+      "Seguro saúde e bagagem"
+    ],
+    "nao_incluso": [
+      "Despesas pessoais",
+      "Ingressos não especificados"
+    ],
+    "preco": "R$ 26.980,00"
+  },
+  "3": {
+    "id": 3,
+    "categoria": "espiritualidade",
+    "empresa": "cancaonova",
+    "img": "img3.jpg",
+    "title": "Itália e Medjugorje",
+    "start": "17/03/2026",
+    "end": "31/03/2026",
+    "director": "Padre Felipe - Canção Nova",
+    "itinerario": [
+      "Dia 1 – Embarque Brasil/Veneza",
+      "Dia 2 – Veneza/Pádua",
+      "Dia 3 – Florença/Assis",
+      "Dia 4 – Loreto/Lanciano",
+      "Dia 5 – Monte Gargano/San Giovanni Rotondo",
+      "Dia 6 – Medjugorje - Monte das Aparições",
+      "Dia 7 – Roma - Basílicas e Vaticano",
+      "Dia 8 – Retorno ao Brasil"
+    ],
+    "incluso": [
+      "Bilhetes aéreos internacionais",
+      "Hospedagem 4 estrelas",
+      "Café da manhã e jantar",
+      "Transporte completo",
+      "Guias locais",
+      "Seguro saúde e bagagem"
+    ],
+    "nao_incluso": [
+      "Despesas pessoais",
+      "Ingressos extras"
+    ],
+    "preco": "R$ 33.980,00"
+  },
+  "4": {
+    "id": 4,
+    "categoria": "turistico",
+    "empresa": "sao-jose",
+    "img": "img4.jpg",
+    "title": "Grécia e Turquia",
+    "start": "05/04/2026",
+    "end": "19/04/2026",
+    "director": "Equipe São José",
+    "itinerario": [
+      "Dia 1 – Embarque no Brasil com destino a Atenas",
+      "Dia 2 – Atenas - Acrópole e Partenon",
+      "Dia 3 – Cruzeiro Ilhas Gregas",
+      "Dia 4 – Mikonos e Santorini",
+      "Dia 5 – Kusadasi e Éfeso (Turquia)",
+      "Dia 6 – Pamukkale e Hierápolis",
+      "Dia 7 – Capadócia - Passeio de balão",
+      "Dia 8 – Istambul - Mesquita Azul e Santa Sofia",
+      "Dia 9 – Istambul - Bazar e Cruzeiro no Bósforo",
+      "Dia 10 – Retorno ao Brasil"
+    ],
+    "incluso": [
+      "Bilhetes aéreos internacionais",
+      "Hospedagem em hotéis 4 estrelas",
+      "Cruzeiro 3 noites Ilhas Gregas",
+      "Café da manhã e jantar",
+      "Guias locais",
+      "Seguro saúde"
+    ],
+    "nao_incluso": [
+      "Passeio de balão opcional",
+      "Despesas pessoais"
+    ],
+    "preco": "R$ 28.990,00"
+  },
+  "5": {
+    "id": 5,
+    "categoria": "espiritualidade",
+    "empresa": "sao-jose",
+    "img": "img5.jpg",
+    "title": "Terra Santa e Egito",
+    "start": "20/04/2026",
+    "end": "04/05/2026",
+    "director": "Padre Rafael Oliveira",
+    "itinerario": [
+      "Dia 1 – Embarque Brasil/Tel Aviv",
+      "Dia 2 – Nazaré e Caná da Galileia",
+      "Dia 3 – Monte Tabor e Lago de Tiberíades",
+      "Dia 4 – Cafarnaum e Rio Jordão",
+      "Dia 5 – Jericó e Mar Morto",
+      "Dia 6 – Jerusalém - Via Sacra e Santo Sepulcro",
+      "Dia 7 – Belém - Basílica da Natividade",
+      "Dia 8 – Monte das Oliveiras e Cenáculo",
+      "Dia 9 – Fronteira Egito - Sinai",
+      "Dia 10 – Cairo - Pirâmides e Museu Egípcio",
+      "Dia 11 – Retorno ao Brasil"
+    ],
+    "incluso": [
+      "Bilhetes aéreos internacionais",
+      "Hospedagem 4 estrelas",
+      "Café da manhã e jantar",
+      "Transporte e entradas",
+      "Guia em português",
+      "Seguro saúde e bagagem"
+    ],
+    "nao_incluso": [
+      "Visto do Egito (emitido na chegada)",
+      "Despesas pessoais"
+    ],
+    "preco": "R$ 29.980,00"
+  },
+  "6": {
+    "id": 6,
+    "categoria": "turistico",
+    "empresa": "sao-jose",
+    "img": "img6.jpg",
+    "title": "Leste Europeu",
+    "start": "10/05/2026",
+    "end": "24/05/2026",
+    "director": "Equipe São José",
+    "itinerario": [
+      "Dia 1 – Embarque Brasil/Praga",
+      "Dia 2 – Praga - Castelo e Ponte Carlos",
+      "Dia 3 – Viena - Ópera e Palácio Schönbrunn",
+      "Dia 4 – Budapeste - Parlamento e Bastião dos Pescadores",
+      "Dia 5 – Cracóvia - Mercado Central",
+      "Dia 6 – Auschwitz e Mina de Sal Wieliczka",
+      "Dia 7 – Varsóvia - Cidade Velha",
+      "Dia 8 – Retorno ao Brasil"
+    ],
+    "incluso": [
+      "Bilhetes aéreos internacionais",
+      "Hospedagem 4 estrelas",
+      "Café da manhã e jantar",
+      "Transporte e guias locais",
+      "Seguro viagem"
+    ],
+    "nao_incluso": [
+      "Ingressos opcionais",
+      "Despesas pessoais"
+    ],
+    "preco": "R$ 25.980,00"
+  },
+  "7": {
+    "id": 7,
+    "categoria": "espiritualidade",
+    "empresa": "cancaonova",
+    "img": "img7.jpg",
+    "title": "Santuários Marianos",
+    "start": "01/06/2026",
+    "end": "15/06/2026",
+    "director": "Padre Jonas - Canção Nova",
+    "itinerario": [
+      "Dia 1 – Embarque Brasil/Lourdes",
+      "Dia 2 – Lourdes - Gruta das Aparições",
+      "Dia 3 – Zaragoza - Nossa Senhora do Pilar",
+      "Dia 4 – Montserrat - Mosteiro",
+      "Dia 5 – Barcelona - Sagrada Família",
+      "Dia 6 – Lisboa - Mosteiro dos Jerónimos",
+      "Dia 7 – Fátima - Locais das Aparições",
+      "Dia 8 – Retorno ao Brasil"
+    ],
+    "incluso": [
+      "Bilhetes aéreos internacionais",
+      "Hospedagem 4 estrelas",
+      "Café da manhã e jantar",
+      "Transporte em ônibus luxo",
+      "Seguro saúde e bagagem"
+    ],
+    "nao_incluso": [
+      "Despesas pessoais"
+    ],
+    "preco": "R$ 27.990,00"
+  },
+  "8": {
+    "id": 8,
+    "categoria": "turistico",
+    "empresa": "sao-jose",
+    "img": "img8.jpg",
+    "title": "Canadá e Costa Leste dos EUA",
+    "start": "10/07/2026",
+    "end": "24/07/2026",
+    "director": "Equipe São José",
+    "itinerario": [
+      "Dia 1 – Embarque Brasil/Toronto",
+      "Dia 2 – Cataratas do Niágara",
+      "Dia 3 – Ottawa - Parlamento e Byward Market",
+      "Dia 4 – Montreal - Basílica Notre Dame",
+      "Dia 5 – Quebec - Cidade Murada",
+      "Dia 6 – Boston - Harvard e Freedom Trail",
+      "Dia 7 – Nova York - Times Square e Central Park",
+      "Dia 8 – Retorno ao Brasil"
+    ],
+    "incluso": [
+      "Bilhetes aéreos internacionais",
+      "Hospedagem 4 estrelas",
+      "Café da manhã e jantar",
+      "Transporte entre cidades",
+      "Seguro saúde"
+    ],
+    "nao_incluso": [
+      "Visto EUA e Canadá",
+      "Despesas pessoais"
+    ],
+    "preco": "R$ 31.980,00"
+  },
+  "9": {
+    "id": 9,
+    "categoria": "espiritualidade",
+    "empresa": "sao-jose",
+    "img": "img9.jpg",
+    "title": "Santo Sudário e Itália",
+    "start": "02/09/2026",
+    "end": "15/09/2026",
+    "director": "Padre Cláudio",
+    "itinerario": [
+      "Dia 1 – Embarque Brasil/Roma",
+      "Dia 2 – Turim - Santo Sudário",
+      "Dia 3 – Milão - Duomo e Galeria Vittorio Emanuele",
+      "Dia 4 – Pádua - Santo Antônio",
+      "Dia 5 – Assis - São Francisco e Carlo Acutis",
+      "Dia 6 – Roma - Vaticano e Coliseu",
+      "Dia 7 – Roma - Fontana di Trevi",
+      "Dia 8 – Retorno ao Brasil"
+    ],
+    "incluso": [
+      "Bilhetes aéreos internacionais",
+      "Hospedagem 4 estrelas",
+      "Café da manhã e jantar",
+      "Transporte e guias",
+      "Seguro viagem"
+    ],
+    "nao_incluso": [
+      "Despesas pessoais"
+    ],
+    "preco": "R$ 28.490,00"
+  },
+  "10": {
+    "id": 10,
+    "categoria": "turistico",
+    "empresa": "sao-jose",
+    "img": "img10.jpg",
+    "title": "Japão e Coreia do Sul",
+    "start": "05/10/2026",
+    "end": "19/10/2026",
+    "director": "Equipe São José",
+    "itinerario": [
+      "Dia 1 – Embarque Brasil/Tóquio",
+      "Dia 2 – Tóquio - Templo Asakusa e Torre de Tóquio",
+      "Dia 3 – Monte Fuji - Lago Ashi",
+      "Dia 4 – Quioto - Pavilhão Dourado e Fushimi Inari",
+      "Dia 5 – Hiroshima - Memorial da Paz",
+      "Dia 6 – Busan (Coreia) - Templo Haedong",
+      "Dia 7 – Seul - Palácio Gyeongbokgung",
+      "Dia 8 – Retorno ao Brasil"
+    ],
+    "incluso": [
+      "Bilhetes aéreos internacionais",
+      "Hospedagem 4 estrelas",
+      "Café da manhã e jantar",
+      "Transporte entre cidades",
+      "Guias locais",
+      "Seguro viagem"
+    ],
+    "nao_incluso": [
+      "Despesas pessoais",
+      "Ingressos opcionais"
+    ],
+    "preco": "R$ 37.980,00"
+  }
+}
