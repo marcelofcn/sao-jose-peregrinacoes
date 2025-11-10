@@ -24,10 +24,15 @@ app.config['FREEZER_DESTINATION'] = 'docs'
 app.config['FREEZER_RELATIVE_URLS'] = False
 app.config['FREEZER_BASE_URL'] = 'https://marcelofcn.github.io/sao-jose-peregrinacoes'
 
-freezer = Freezer(app)
+if not os.path.exists('docs'):
+    os.makedirs('docs', exist_ok=True)
 
-# Garante que a pasta docs exista
-os.makedirs('docs', exist_ok=True)
+print("🚀 Gerando site estático...")
+freezer.freeze()
+print("✅ Site estático gerado em /docs")
+
+
+
 
 # ------------------------------------------------------
 # Gera as rotas dinâmicas dos roteiros
