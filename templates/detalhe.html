@@ -4,20 +4,23 @@
 {% block content %}
 <section class="container detalhe-roteiro">
   <nav class="breadcrumb">
-    <a href="../">Início</a>
-    <span class="separator">›</span>
-    {% if roteiro.categoria == 'espiritualidade' %}
-      {% if roteiro.empresa == 'sao-jose' %}
-        <a href="../roteiros/espiritualidade/sao-jose/">São José Viagens</a>
-      {% elif roteiro.empresa == 'cancaonova' %}
-        <a href="../roteiros/espiritualidade/cancaonova/">Canção Nova</a>
-      {% endif %}
-    {% else %}
-      <a href="{{ BASE_PATH }}/roteiros-turisticos">Roteiros Turísticos</a>
+  <a href="{{ BASE_PATH }}/">Início</a>
+  <span class="separator">›</span>
+
+  {% if roteiro.categoria == 'espiritualidade' %}
+    {% if roteiro.empresa == 'sao-jose' %}
+      <a href="{{ BASE_PATH }}/roteiros/espiritualidade/sao-jose/">São José</a>
+    {% elif roteiro.empresa == 'cancaonova' %}
+      <a href="{{ BASE_PATH }}/roteiros/espiritualidade/cancaonova/">Canção Nova</a>
     {% endif %}
-    <span class="separator">›</span>
-    <span class="current">{{ roteiro.title }}</span>
-  </nav>
+  {% else %}
+      <a href="{{ BASE_PATH }}/roteiros/turisticos/">Roteiros Turísticos</a>
+  {% endif %}
+
+  <span class="separator">›</span>
+  <span class="current">{{ roteiro.title }}</span>
+</nav>
+
 
   <div class="detalhe-header">
     <h1>{{ roteiro.title }}</h1>
@@ -31,10 +34,9 @@
   </div>
 
   <div class="detalhe-image-container">
-  <img src="{{ BASE_PATH }}/static/img/{{ roteiro.img }}" alt="{{ roteiro.title }}">
-         alt="{{ roteiro.title }}" 
-         class="img-detalhe">
+  <img src="{{ BASE_PATH }}/static/img/{{ roteiro.img }}" alt="{{ roteiro.title }}" class="img-detalhe">
   </div>
+
 
   <div class="detalhe-info-grid">
     <div class="info-card">
