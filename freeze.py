@@ -26,6 +26,6 @@ def roteiro_detalhe():
 if __name__ == '__main__':
     print("\n🚀 Gerando...\n")
     freezer.freeze()
-    with open('build/.nojekyll', 'w') as f:
+    with open('docs/.nojekyll', 'w') as f:
         pass
     print("✅ Pronto!\n")
