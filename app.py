@@ -1,21 +1,21 @@
 # app.py
-from flask import Flask, render_template, abort, jsonify
+from flask import Flask, render_template, send_from_directory, url_for
 import os, json
 
 app = Flask(__name__)
-app.secret_key = 'sua-chave-secreta-aqui-2025'
-
-# Carregar base de dados
-with open("roteiros.json", "r", encoding="utf-8") as f:
-    ROTEIROS_DB = json.load(f)
-
-
-
 # Caminho base correto para o GitHub Pages
 app.config['FREEZER_BASE_URL'] = 'https://marcelofcn.github.io/sao-jose-peregrinacoes'
 app.config['FREEZER_RELATIVE_URLS'] = True
 app.config['FREEZER_DESTINATION'] = 'docs'
 
+# Corrige bug do Frozen-Flask + Flask 3.x
+@app.route('/static/<path:filename>')
+def static_files(filename):
+    return send_from_directory(app.static_folder, filename)
+
+# Carregar base de dados
+with open("roteiros.json", "r", encoding="utf-8") as f:
+    ROTEIROS_DB = json.load(f)
 
 # ==================== ROTAS ====================
 
