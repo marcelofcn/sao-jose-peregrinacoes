@@ -22,7 +22,7 @@
   <div class="cards">
     {% for r in roteiros_espirituais %}
       <article class="card">
-        <img src="../static/img/{{ r.img }}" alt="{{ r.title }}">
+        <img src="{{ url_for('static', filename='img/' + r.img) }}" alt="{{ r.title }}">
         <h3>{{ r.title }}</h3>
         <p class="card-date">📅 {{ r.date }}</p>
         <a class="btn" href="{{ r.url }}">Ver detalhes</a>
@@ -40,7 +40,7 @@
   <div class="cards">
     {% for t in roteiros_turisticos %}
       <article class="card">
-        <img src="../static/img/{{ t.img }}" alt="{{ t.title }}">
+        <img src="{{ url_for('static', filename='img/' + r.img) }}" alt="{{ r.title }}">
         <h3>{{ t.title }}</h3>
         <p class="card-date">📅 {{ t.date }}</p>
         <a class="btn" href="{{ t.url }}">Ver detalhes</a>
