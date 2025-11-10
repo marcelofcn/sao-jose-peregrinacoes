@@ -21,6 +21,10 @@ app.config['FREEZER_IGNORE_MIMETYPE_WARNINGS'] = True
 
 freezer = Freezer(app)
 
+if not os.path.exists('docs'):
+    os.makedirs('docs')
+
+
 @freezer.register_generator
 def static_files():
     """Gera URLs para todos os arquivos estáticos."""
