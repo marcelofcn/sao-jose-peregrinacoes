@@ -12,12 +12,10 @@ except Exception as e:
     print(f"❌ {e}")
     sys.exit(1)
 
-# Garante que a pasta estática seja incluída no build
+# Configurações do freezer
 app.config['FREEZER_DESTINATION'] = 'docs'
 app.config['FREEZER_RELATIVE_URLS'] = True
-app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
-app.config['FREEZER_REMOVE_EXTRA_FILES'] = False
-app.config['FREEZER_IGNORE_MIMETYPE_WARNINGS'] = True
+app.config['FREEZER_BASE_URL'] = 'https://marcelofcn.github.io/sao-jose-peregrinacoes'
 
 freezer = Freezer(app)
 
@@ -25,20 +23,17 @@ if not os.path.exists('docs'):
     os.makedirs('docs')
 
 
+# 🔧 Garante inclusão dos arquivos estáticos
 @freezer.register_generator
 def static_files():
-    """Gera URLs para todos os arquivos estáticos."""
-    for dirpath, _, filenames in os.walk(os.path.join(app.root_path, 'static')):
+    """Força o Frozen-Flask a incluir os arquivos estáticos."""
+    static_folder = os.path.join(app.root_path, 'static')
+    for dirpath, _, filenames in os.walk(static_folder):
         for filename in filenames:
-            path = os.path.relpath(os.path.join(dirpath, filename), app.root_path)
-            if path.startswith('static/'):
-                yield f'/{path}'
-
-
+            rel_path = os.path.relpath(os.path.join(dirpath, filename), app.root_path)
+            yield f'/{rel_path}'
 
 if __name__ == '__main__':
-    print("\n🚀 Gerando...\n")
+    print("🚀 Gerando site estático...")
     freezer.freeze()
-    with open('docs/.nojekyll', 'w') as f:
-        pass
-    print("✅ Pronto!\n")
+    print("✅ Site estático gerado em /docs")
