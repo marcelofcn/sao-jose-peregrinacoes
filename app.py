@@ -2,6 +2,12 @@
 from flask import Flask, render_template, send_from_directory, url_for
 import os, json
 
+BASE_PATH = '/sao-jose-peregrinacoes'
+
+@app.context_processor
+def inject_base_path():
+    return dict(BASE_PATH=BASE_PATH)
+
 app = Flask(__name__)
 # Caminho base correto para o GitHub Pages
 app.config['FREEZER_BASE_URL'] = 'https://marcelofcn.github.io/sao-jose-peregrinacoes'
