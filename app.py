@@ -9,9 +9,13 @@ app.secret_key = 'sua-chave-secreta-aqui-2025'
 with open("roteiros.json", "r", encoding="utf-8") as f:
     ROTEIROS_DB = json.load(f)
 
-# Configuração para GitHub Pages
-app.config['FREEZER_RELATIVE_URLS'] = True
-app.config['FREEZER_BASE_URL'] = os.environ.get('FREEZER_BASE_URL', 'http://localhost:5000/')
+
+
+# Caminho base correto para o GitHub Pages
+app.config['FREEZER_BASE_URL'] = 'https://marcelofcn.github.io/sao-jose-peregrinacoes/'
+app.config['FREEZER_RELATIVE_URLS'] = True  # <-- ESSENCIAL
+app.config['FREEZER_DESTINATION'] = 'docs'
+app.config['FREEZER_REMOVE_EXTRA_FILES'] = False
 
 # ==================== ROTAS ====================
 
