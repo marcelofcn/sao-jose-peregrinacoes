@@ -4,10 +4,11 @@
 {% block content %}
 <section class="container">
   <nav class="breadcrumb">
-    <a href="../">← Início</a>
-    <span class="separator">›</span>
-    <span class="current">{{ titulo }}</span>
+  <a href="{{ BASE_PATH }}/">← Início</a>
+  <span class="separator">›</span>
+  <span class="current">{{ titulo }}</span>
   </nav>
+
 
   <h2>{{ titulo }}</h2>
   
@@ -19,7 +20,7 @@
           <h3>{{ r.title }}</h3>
           <p><strong>Período:</strong> {{ r.start }} a {{ r.end }}</p>
           <p><strong>Diretor:</strong> {{ r.director }}</p>
-          <a class="btn" href="/roteiro/{{ r.id }}/">Ver detalhes</a>
+          <a class="btn" href="{{ BASE_PATH }}/roteiro/{{ r.id }}/">Ver detalhes</a>
         </article>
       {% endfor %}
     </div>
