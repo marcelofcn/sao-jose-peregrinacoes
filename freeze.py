@@ -62,3 +62,4 @@ for filepath in glob.glob('docs/**/*.html', recursive=True):
     print("✅ Caminhos ajustados!")
 
     print("✅ Site estático gerado em /docs")
+    #force
