@@ -8,9 +8,8 @@ BASE_PATH = '/sao-jose-peregrinacoes'
 def inject_base_path():
     return dict(BASE_PATH=BASE_PATH)
 
-app = Flask(__name__)
-# Caminho base correto para o GitHub Pages
-app.config['FREEZER_BASE_URL'] = 'https://marcelofcn.github.io/sao-jose-peregrinacoes'
+app = Flask(__name__, static_url_path='/sao-jose-peregrinacoes/static')
+app.config['BASE_PATH'] = '/sao-jose-peregrinacoes'
 app.config['FREEZER_RELATIVE_URLS'] = True
 app.config['FREEZER_DESTINATION'] = 'docs'
 
