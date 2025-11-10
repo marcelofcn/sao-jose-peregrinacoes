@@ -14,18 +14,18 @@
   <div class="section-header-with-link">
     <h2>Roteiros de Espiritualidade</h2>
     <div class="header-links">
-      <a href="../roteiros/espiritualidade/sao-jose/" class="link-ver-mais">Ver São José →</a>
-      <a href="../roteiros/espiritualidade/cancaonova/" class="link-ver-mais">Ver Canção Nova →</a>
+      <a href="{{ BASE_PATH }}/roteiros/espiritualidade/sao-jose/" class="link-ver-mais">Ver São José →</a>
+      <a href="{{ BASE_PATH }}/roteiros/espiritualidade/cancaonova/" class="link-ver-mais">Ver Canção Nova →</a>
     </div>
   </div>
   
   <div class="cards">
     {% for r in roteiros_espirituais %}
       <article class="card">
-        <img src="{{ url_for('static', filename='img/' + r.img) }}" alt="{{ r.title }}">
+        <img src="{{ BASE_PATH }}/static/img/{{ r.img }}" alt="{{ r.title }}">
         <h3>{{ r.title }}</h3>
         <p class="card-date">📅 {{ r.date }}</p>
-        <a class="btn" href="{{ r.url }}">Ver detalhes</a>
+        <a class="btn" href="{{ BASE_PATH }}/{{ r.url }}">Ver detalhes</a>
       </article>
     {% endfor %}
   </div>
@@ -34,7 +34,7 @@
 <section id="turismo" class="container">
   <div class="section-header-with-link">
     <h2>Roteiros Turísticos</h2>
-    <a href="../roteiros/turisticos/" class="link-ver-mais">Ver todos →</a>
+    <a href="{{ BASE_PATH }}/roteiros/turisticos/" class="link-ver-mais">Ver todos →</a>
   </div>
   
   <div class="cards">
@@ -43,7 +43,7 @@
         <img src="{{ BASE_PATH }}/static/img/{{ t.img }}" alt="{{ t.title }}">
         <h3>{{ t.title }}</h3>
         <p class="card-date">📅 {{ t.date }}</p>
-        <a class="btn" href="{{ t.url }}">Ver detalhes</a>
+        <a class="btn" href="{{ BASE_PATH }}/{{ t.url }}">Ver detalhes</a>
       </article>
     {% endfor %}
   </div>
