@@ -1,44 +1,410 @@
 {
-  "1": {
-    "id": 1,
-    "categoria": "espiritualidade",
-    "empresa": "sao-jose",
-    "img": "img1.jpg",
-    "title": "Portugal e Itália",
-    "start": "03/02/2026",
-    "end": "16/02/2026",
-    "director": "Padre Gabriel Ribeiro e Padre Tiago Signorini",
-    "itinerario": [
-      "Dia 1 (03/02/26) – Embarque no Brasil com destino a Roma",
-      "Dia 2 (04/02/26) – Roma/Assis - Chegada em Roma e traslado para Assis",
-      "Dia 3 (05/02/26) – Assis - Visita Igreja Santa Maria dos Anjos, Basílicas de São Francisco e Santa Clara, Corpo de Carlo Acutis",
-      "Dia 4 (06/02/26) – Assis/Cassia/Lanciano/San Giovanni Rotondo - Visita Santa Rita e Milagre Eucarístico",
-      "Dia 5 (07/02/26) – San Giovanni Rotondo/Monte Gargano/Roma - Padre Pio e Monte Gargano",
-      "Dia 6 (08/02/26) – Roma - Basílica de São Pedro, Santa Maria Maior, São João de Latrão, Escada Santa",
-      "Dia 7 (09/02/26) – Roma - City tour: Coliseu, Foros Imperiais, Fontana de Trevi",
-      "Dia 8 (10/02/26) – Roma/Lisboa/Fátima - Traslado para Portugal, procissão das velas",
-      "Dia 9 (11/02/26) – Fátima - Locais das aparições, casa dos Pastorinhos",
-      "Dia 10 (12/02/26) – Fátima/Óbidos/Nazaré/Batalha/Lisboa",
-      "Dia 11 (13/02/26) – Lisboa - City tour panorâmico",
-      "Dia 12 (14/02/26) – Lisboa - Dia livre",
-      "Dia 13 (15/02/26) – Lisboa/Brasil - Retorno",
-      "Dia 14 (16/02/26) – Chegada no Brasil"
-    ],
-    "incluso": [
-      "Bilhetes aéreos internacionais em classe econômica (Guarulhos/SP)",
-      "Taxas de embarque",
-      "Hospedagem em hotéis 4 estrelas, quartos duplos",
-      "Alimentação: café da manhã e jantar",
-      "Ônibus luxo com ar condicionado",
-      "Guias locais e acompanhante São José",
-      "Seguro saúde e bagagem"
-    ],
-    "nao_incluso": [
-      "Excesso de bagagens",
-      "Despesas pessoais (bebidas, lanches, telefonemas)",
-      "Ingressos não especificados no roteiro",
-      "Marcação antecipada de assentos nos voos"
-    ],
-    "preco": "R$ 26.980,00"
-  }
+  "roteiros": [
+    {
+      "id": 1,
+      "categoria": "espiritualidade",
+      "empresa": "sao-jose",
+      "img": "img1.jpg",
+      "title": "Portugal e Itália",
+      "start": "03/02/2026",
+      "end": "16/02/2026",
+      "director": "Padre Gabriel Ribeiro e Padre Tiago Signorini",
+      "itinerario": [
+        "Dia 1 (03/02/26) – Embarque no Brasil com destino a Roma",
+        "Dia 2 (04/02/26) – Roma/Assis - Chegada em Roma e traslado para Assis",
+        "Dia 3 (05/02/26) – Assis - Visita Igreja Santa Maria dos Anjos, Basílicas de São Francisco e Santa Clara, Corpo de Carlo Acutis",
+        "Dia 4 (06/02/26) – Assis/Cassia/Lanciano/San Giovanni Rotondo - Visita Santa Rita e Milagre Eucarístico",
+        "Dia 5 (07/02/26) – San Giovanni Rotondo/Monte Gargano/Roma - Padre Pio e Monte Gargano",
+        "Dia 6 (08/02/26) – Roma - Basílica de São Pedro, Santa Maria Maior, São João de Latrão, Escada Santa",
+        "Dia 7 (09/02/26) – Roma - City tour: Coliseu, Foros Imperiais, Fontana de Trevi",
+        "Dia 8 (10/02/26) – Roma/Lisboa/Fátima - Traslado para Portugal, procissão das velas",
+        "Dia 9 (11/02/26) – Fátima - Locais das aparições, casa dos Pastorinhos",
+        "Dia 10 (12/02/26) – Fátima/Óbidos/Nazaré/Batalha/Lisboa",
+        "Dia 11 (13/02/26) – Lisboa - City tour panorâmico",
+        "Dia 12 (14/02/26) – Lisboa - Dia livre",
+        "Dia 13 (15/02/26) – Lisboa/Brasil - Retorno",
+        "Dia 14 (16/02/26) – Chegada no Brasil"
+      ],
+      "incluso": [
+        "Bilhetes aéreos internacionais em classe econômica (Guarulhos/SP)",
+        "Taxas de embarque",
+        "Hospedagem em hotéis 4 estrelas, quartos duplos",
+        "Alimentação: café da manhã e jantar",
+        "Ônibus luxo com ar condicionado",
+        "Guias locais e acompanhante São José",
+        "Seguro saúde e bagagem"
+      ],
+      "nao_incluso": [
+        "Excesso de bagagens",
+        "Despesas pessoais (bebidas, lanches, telefonemas)",
+        "Ingressos não especificados no roteiro",
+        "Marcação antecipada de assentos nos voos"
+      ],
+      "preco": "R$ 26.980,00"
+    },
+    {
+      "id": 2,
+      "categoria": "turistico",
+      "empresa": "sao-jose",
+      "img": "img2.jpg",
+      "title": "Dinamarca, Noruega e Suécia",
+      "start": "04/03/2026",
+      "end": "18/03/2026",
+      "director": "Equipe São José",
+      "itinerario": [
+        "Dia 1 (04/03/26) – Embarque no Brasil com destino a Copenhague",
+        "Dia 2 (05/03/26) – Copenhague - Chegada e acomodação",
+        "Dia 3 (06/03/26) – Copenhague - Castelo de Frederiksborg",
+        "Dia 4 (07/03/26) – Copenhague - City tour, cruzeiro noturno para Oslo",
+        "Dia 5 (08/03/26) – Geilo - Travessia pelo fiorde de Oslo",
+        "Dia 6 (09/03/26) – Sognefjord - Trem de Flåm pelo fiorde",
+        "Dia 7 (10/03/26) – Glaciar Briksdal - Parque Nacional",
+        "Dia 8 (11/03/26) – Voss/Bergen - Capital da adrenalina",
+        "Dia 9 (12/03/26) – Bergen - City tour, Mercado de Peixes, Bryggen",
+        "Dia 10 (13/03/26) – Bergen/Oslo - Ponte Hardanger, Vøringfossen",
+        "Dia 11 (14/03/26) – Oslo - Parque Vigeland, Palácio Real, Fortaleza Akershus",
+        "Dia 12 (15/03/26) – Oslo/Estocolmo - Castelo de Gripsholm",
+        "Dia 13 (16/03/26) – Estocolmo - City tour, Gamla Stan",
+        "Dia 14 (17/03/26) – Estocolmo - Museu Vasa",
+        "Dia 15 (18/03/26) – Estocolmo/Brasil - Retorno"
+      ],
+      "incluso": [
+        "Bilhetes aéreos internacionais",
+        "Hospedagem em hotéis 4 estrelas",
+        "Café da manhã e jantar",
+        "Transporte em ônibus luxo",
+        "Guias locais",
+        "Seguro saúde e bagagem"
+      ],
+      "nao_incluso": [
+        "Excesso de bagagens",
+        "Despesas pessoais",
+        "Ingressos não especificados",
+        "Marcação de assentos"
+      ],
+      "preco": "R$ 26.980,00"
+    },
+    {
+      "id": 3,
+      "categoria": "espiritualidade",
+      "empresa": "cancaonova",
+      "img": "img3.jpg",
+      "title": "Itália e Medjugorje",
+      "start": "17/03/2026",
+      "end": "31/03/2026",
+      "director": "Padre Felipe - Canção Nova",
+      "itinerario": [
+        "Dia 1 (17/03/26) – Embarque Brasil/Veneza",
+        "Dia 2 (18/03/26) – Veneza - Chegada e acomodação",
+        "Dia 3 (19/03/26) – Veneza/Pádua - Santo Antônio, Praça São Marcos",
+        "Dia 4 (20/03/26) – Florença/Assis - Catedral Santa Maria da Flor",
+        "Dia 5 (21/03/26) – Assis/Cassia - São Francisco, Santa Clara, Carlo Acutis, Santa Rita",
+        "Dia 6 (22/03/26) – Loreto/Lanciano - Santa Casa, Milagre Eucarístico",
+        "Dia 7 (23/03/26) – Monte Gargano/San Giovanni Rotondo - Padre Pio",
+        "Dia 8 (24/03/26) – Roma/Split/Medjugorje - Voo para Split",
+        "Dia 9 (25/03/26) – Medjugorje - Monte das Aparições",
+        "Dia 10 (26/03/26) – Medjugorje - Atividades religiosas",
+        "Dia 11 (27/03/26) – Medjugorje/Split/Roma - Retorno a Roma",
+        "Dia 12 (28/03/26) – Roma - Coliseu, Basílicas, Fontana de Trevi",
+        "Dia 13 (29/03/26) – Roma - Vaticano, Capela Sistina",
+        "Dia 14 (30/03/26) – Roma/Brasil - Retorno"
+      ],
+      "incluso": [
+        "Bilhetes aéreos internacionais",
+        "Hospedagem em hotéis 4 estrelas",
+        "Café da manhã e jantar",
+        "Transporte completo",
+        "Guias locais",
+        "Seguro saúde e bagagem"
+      ],
+      "nao_incluso": [
+        "Excesso de bagagens",
+        "Despesas pessoais",
+        "Ingressos extras",
+        "Marcação de assentos"
+      ],
+      "preco": "R$ 33.980,00"
+    },
+    {
+      "id": 4,
+      "categoria": "turistico",
+      "empresa": "sao-jose",
+      "img": "img4.jpg",
+      "title": "Itália (Costa Amalfitana e Suíça)",
+      "start": "01/04/2026",
+      "end": "15/04/2026",
+      "director": "Equipe São José",
+      "itinerario": [
+        "Dia 1 (01/04/26) – Embarque Brasil/Itália",
+        "Dia 2 (02/04/26) – Roma - Chegada",
+        "Dia 3 (03/04/26) – Nápoles/Pompeia/Sorrento",
+        "Dia 4 (04/04/26) – Costa Amalfitana - Positano, Amalfi",
+        "Dia 5 (05/04/26) – Sorrento - Centro histórico",
+        "Dia 6 (06/04/26) – Ilha Capri - Gruta branca",
+        "Dia 7 (07/04/26) – Montecassino/Roma - Abadia São Bento",
+        "Dia 8 (08/04/26) – Roma - Coliseu, Vaticano, Basílicas",
+        "Dia 9 (09/04/26) – Assis - São Francisco, Carlo Acutis",
+        "Dia 10 (10/04/26) – Veneza - Praça São Marcos",
+        "Dia 11 (11/04/26) – Bernina Express - St. Moritz",
+        "Dia 12 (12/04/26) – Lucerna/Zurique - Ponte da Capela",
+        "Dia 13 (13/04/26) – Zurique - City tour",
+        "Dia 14 (14/04/26) – Zurique/Brasil - Retorno"
+      ],
+      "incluso": [
+        "Passagens aéreas",
+        "Hotéis 4 estrelas",
+        "Café e jantar",
+        "Transporte",
+        "Guias",
+        "Seguro"
+      ],
+      "nao_incluso": [
+        "Excesso bagagem",
+        "Despesas pessoais",
+        "Ingressos extras",
+        "Marcação assentos"
+      ],
+      "preco": "R$ 29.980,00"
+    },
+    {
+      "id": 5,
+      "categoria": "turistico",
+      "empresa": "sao-jose",
+      "img": "img5.jpg",
+      "title": "Inglaterra, Gales, Escócia e Irlanda",
+      "start": "17/04/2026",
+      "end": "01/05/2026",
+      "director": "Equipe São José",
+      "itinerario": [
+        "Dia 1 (17/04/26) – Embarque Brasil/Londres",
+        "Dia 2 (18/04/26) – Windsor Castle - Residência Real",
+        "Dia 3 (19/04/26) – Londres - City tour, cruzeiro Rio Tâmisa",
+        "Dia 4 (20/04/26) – Londres - National Gallery, Buckingham",
+        "Dia 5 (21/04/26) – Londres - Torre de Londres, Greenwich, Fantasma da Ópera",
+        "Dia 6 (22/04/26) – Stonehenge/Cardiff - País de Gales",
+        "Dia 7 (23/04/26) – Liverpool - Beatles, Penny Lane",
+        "Dia 8 (24/04/26) – Edimburgo - Escócia",
+        "Dia 9 (25/04/26) – Edimburgo - Castelo, Carlton Hill",
+        "Dia 10 (26/04/26) – Glasgow/Belfast - Ferry",
+        "Dia 11 (27/04/26) – Belfast/Dublin - Titanic Museum",
+        "Dia 12 (28/04/26) – Dublin - Temple Bar, Guinness",
+        "Dia 13 (29/04/26) – Dublin - Trinity College, Castelo",
+        "Dia 14 (30/04/26) – Dublin/Brasil - Retorno"
+      ],
+      "incluso": [
+        "Passagens aéreas",
+        "Hotéis 4 estrelas",
+        "Refeições",
+        "Transporte",
+        "Ingressos incluídos",
+        "Seguro"
+      ],
+      "nao_incluso": [
+        "Bagagem extra",
+        "Gastos pessoais",
+        "Extras",
+        "Assentos"
+      ],
+      "preco": "R$ 33.980,00"
+    },
+    {
+      "id": 6,
+      "categoria": "turistico",
+      "empresa": "sao-jose",
+      "img": "img6.jpg",
+      "title": "Bélgica, Holanda e Alemanha",
+      "start": "04/05/2026",
+      "end": "16/05/2026",
+      "director": "Equipe São José",
+      "itinerario": [
+        "Dia 1 (04/05/26) – Embarque Brasil/Bruxelas",
+        "Dia 2 (05/05/26) – Bruxelas - Chegada",
+        "Dia 3 (06/05/26) – Bruxelas - Grande Place, Atomium",
+        "Dia 4 (07/05/26) – Gent/Bruges - Veneza do Norte",
+        "Dia 5 (08/05/26) – Antuérpia/Haia/Amsterdam",
+        "Dia 6 (09/05/26) – Amsterdam - Canais, museus",
+        "Dia 7 (10/05/26) – Keukenhof - Campos de tulipas",
+        "Dia 8 (11/05/26) – Volendam/Marken/Zaanse Schans/Colônia",
+        "Dia 9 (12/05/26) – Colônia - Catedral, Rio Reno",
+        "Dia 10 (13/05/26) – Schoenstatt/Frankfurt",
+        "Dia 11 (14/05/26) – Frankfurt - City tour",
+        "Dia 12 (15/05/26) – Frankfurt/Brasil - Retorno"
+      ],
+      "incluso": [
+        "Passagens",
+        "Hospedagem",
+        "Alimentação",
+        "Transporte",
+        "Guias",
+        "Seguro"
+      ],
+      "nao_incluso": [
+        "Bagagens extras",
+        "Despesas pessoais",
+        "Extras",
+        "Assentos"
+      ],
+      "preco": "R$ 27.980,00"
+    },
+    {
+      "id": 7,
+      "categoria": "espiritualidade",
+      "empresa": "sao-jose",
+      "img": "img7.jpg",
+      "title": "Santuários Marianos da Europa",
+      "start": "10/05/2026",
+      "end": "25/05/2026",
+      "director": "Padre Leandro",
+      "itinerario": [
+        "Dia 1 (10/05/26) – Embarque Brasil/Lisboa",
+        "Dia 2 (11/05/26) – Lisboa - City tour",
+        "Dia 3 (12/05/26) – Óbidos/Nazaré/Fátima",
+        "Dia 4 (13/05/26) – Fátima - Solenidade N.Sra. Fátima",
+        "Dia 5 (14/05/26) – Fátima/Lisboa/Madri",
+        "Dia 6 (15/05/26) – Madri - Dia livre",
+        "Dia 7 (16/05/26) – Madri/Toulouse/Lourdes",
+        "Dia 8 (17/05/26) – Lourdes - Atividades religiosas",
+        "Dia 9 (18/05/26) – Lourdes/Lyon",
+        "Dia 10 (19/05/26) – Ars/Paray Le Monial - Cura D'Ars, Sagrado Coração",
+        "Dia 11 (20/05/26) – Nevers/Paris - Santa Bernadete",
+        "Dia 12 (21/05/26) – Lisieux/Paris - Santa Teresinha",
+        "Dia 13 (22/05/26) – Paris - City tour, Sacré Coeur",
+        "Dia 14 (23/05/26) – Paris - Medalha Milagrosa, compras",
+        "Dia 15 (24/05/26) – Paris/Brasil - Retorno"
+      ],
+      "incluso": [
+        "Passagens aéreas",
+        "Hotéis 4 estrelas",
+        "Café e jantar",
+        "Transporte",
+        "Guias",
+        "Seguro"
+      ],
+      "nao_incluso": [
+        "Bagagem extra",
+        "Despesas pessoais",
+        "Extras",
+        "Assentos"
+      ],
+      "preco": "R$ 28.980,00"
+    },
+    {
+      "id": 8,
+      "categoria": "espiritualidade",
+      "empresa": "cancaonova",
+      "img": "img8.jpg",
+      "title": "México - Guadalupe",
+      "start": "12/05/2026",
+      "end": "20/05/2026",
+      "director": "Padre Jesu e Sonia Venancio - Canção Nova",
+      "itinerario": [
+        "Dia 1 (12/05/26) – São Paulo/Cidade do México",
+        "Dia 2 (13/05/26) – Santuário N.Sra. Guadalupe",
+        "Dia 3 (14/05/26) – Cristo Veneno & Beata Conchita",
+        "Dia 4 (15/05/26) – Tulpetlac & Cuautitlán",
+        "Dia 5 (16/05/26) – Teotihuacán - Pirâmides",
+        "Dia 6 (17/05/26) – Tlaxcala/Puebla",
+        "Dia 7 (18/05/26) – Puebla/Cholula",
+        "Dia 8 (19/05/26) – Puebla/Cidade do México/Brasil"
+      ],
+      "incluso": [
+        "Passagens aéreas",
+        "Hospedagem",
+        "Alimentação",
+        "Transporte",
+        "Guias",
+        "Seguro"
+      ],
+      "nao_incluso": [
+        "Bagagens extras",
+        "Despesas pessoais",
+        "Extras",
+        "Assentos"
+      ],
+      "preco": "R$ 18.980,00"
+    },
+    {
+      "id": 9,
+      "categoria": "espiritualidade",
+      "empresa": "cancaonova",
+      "img": "img9.jpg",
+      "title": "Santuários da França",
+      "start": "01/06/2026",
+      "end": "16/06/2026",
+      "director": "Padre Alessandro e Salette Ferreira - Canção Nova",
+      "itinerario": [
+        "Dia 1 (01/06/26) – Embarque Brasil/Paris",
+        "Dia 2 (02/06/26) – Paris/Lisieux - Santa Terezinha",
+        "Dia 3 (03/06/26) – Monte São Michel - Mosteiro Beneditino",
+        "Dia 4 (04/06/26) – Monte São Michel/Tours",
+        "Dia 5 (05/06/26) – Tours/Rocamadour - Santuário Mariano",
+        "Dia 6 (06/06/26) – Rocamadour/Lourdes",
+        "Dia 7 (07/06/26) – Lourdes - Atividades religiosas",
+        "Dia 8 (08/06/26) – Lourdes/Avignon - Cidade dos Papas",
+        "Dia 9 (09/06/26) – Avignon/La Salette",
+        "Dia 10 (10/06/26) – La Salette/Ars/Lyon - Cura D'Ars",
+        "Dia 11 (11/06/26) – Lyon/Paray-Le-Monial - Sagrado Coração",
+        "Dia 12 (12/06/26) – Paray/Nevers/Paris - Santa Bernadete",
+        "Dia 13 (13/06/26) – Paris - City tour, Sacré-Coeur",
+        "Dia 14 (14/06/26) – Paris - Medalha Milagrosa",
+        "Dia 15 (15/06/26) – Paris/Brasil - Retorno"
+      ],
+      "incluso": [
+        "Passagens aéreas",
+        "Hotéis 4 estrelas",
+        "Refeições",
+        "Transporte",
+        "Guias",
+        "Seguro"
+      ],
+      "nao_incluso": [
+        "Bagagem extra",
+        "Despesas pessoais",
+        "Extras",
+        "Assentos"
+      ],
+      "preco": "R$ 26.980,00"
+    },
+    {
+      "id": 10,
+      "categoria": "turistico",
+      "empresa": "sao-jose",
+      "img": "img10.jpg",
+      "title": "Reino Unido e Irlanda Completo",
+      "start": "10/06/2026",
+      "end": "24/06/2026",
+      "director": "Equipe São José",
+      "itinerario": [
+        "Dia 1 (10/06/26) – Embarque Brasil/Londres",
+        "Dia 2 (11/06/26) – Windsor Castle",
+        "Dia 3 (12/06/26) – Londres - City tour, cruzeiro Tâmisa",
+        "Dia 4 (13/06/26) – Londres - National Gallery",
+        "Dia 5 (14/06/26) – Londres - Torre, Greenwich, Fantasma da Ópera",
+        "Dia 6 (15/06/26) – Stonehenge/Cardiff",
+        "Dia 7 (16/06/26) – Liverpool - Beatles",
+        "Dia 8 (17/06/26) – Edimburgo",
+        "Dia 9 (18/06/26) – Edimburgo - Castelo",
+        "Dia 10 (19/06/26) – Glasgow/Belfast - Ferry",
+        "Dia 11 (20/06/26) – Belfast/Dublin - Titanic",
+        "Dia 12 (21/06/26) – Dublin - City tour, Guinness",
+        "Dia 13 (22/06/26) – Dublin - Trinity College, Castelo",
+        "Dia 14 (23/06/26) – Dublin/Brasil - Retorno"
+      ],
+      "incluso": [
+        "Passagens aéreas",
+        "Hotéis 4 estrelas",
+        "Alimentação",
+        "Transporte",
+        "Ingressos",
+        "Seguro"
+      ],
+      "nao_incluso": [
+        "Bagagem extra",
+        "Despesas pessoais",
+        "Extras",
+        "Assentos"
+      ],
+      "preco": "R$ 33.980,00"
+    }
+  ]
 }
