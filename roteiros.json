@@ -2,7 +2,7 @@
   "roteiros": [
     {
       "id": 1,
-      "categoria": "espiritualidade",
+      "categoria": "espirituais",
       "empresa": "sao-jose",
       "img": "img1.jpg",
       "title": "Portugal e Itália",
@@ -86,7 +86,7 @@
     },
     {
       "id": 3,
-      "categoria": "espiritualidade",
+      "categoria": "espirituais",
       "empresa": "cancaonova",
       "img": "img3.jpg",
       "title": "Itália e Medjugorje",
@@ -248,7 +248,7 @@
     },
     {
       "id": 7,
-      "categoria": "espiritualidade",
+      "categoria": "espirituais",
       "empresa": "sao-jose",
       "img": "img7.jpg",
       "title": "Santuários Marianos da Europa",
@@ -290,7 +290,7 @@
     },
     {
       "id": 8,
-      "categoria": "espiritualidade",
+      "categoria": "espirituais",
       "empresa": "cancaonova",
       "img": "img8.jpg",
       "title": "México - Guadalupe",
@@ -325,7 +325,7 @@
     },
     {
       "id": 9,
-      "categoria": "espiritualidade",
+      "categoria": "espirituais",
       "empresa": "cancaonova",
       "img": "img9.jpg",
       "title": "Santuários da França",
