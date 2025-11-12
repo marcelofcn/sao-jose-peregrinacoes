@@ -449,6 +449,94 @@
       "Marcação de assentos nos voos de forma antecipada, que deverá acontecer apenas no balcão da companhia aérea, no ato do check-in"
     ],
     "preco": "R$ 26.980,00"
-    }
+    },
+    "12": {
+    "id": 12,
+    "categoria": "espiritualidade",
+    "empresa": "cancaonova",
+    "img": "img12.jpg",
+    "title": "Grécia e Turquia",
+    "start": "05/07/2026",
+    "end": "20/07/2026",
+    "director": "Padre Edilberto e Emanuel - Canção Nova",
+    "itinerario": [
+      "Dia 1 (05/07/2026) – Saída do Brasil com destino à Turquia - Istambul. Embarque em Campo Grande/MS ou sua capital x Guarulhos e conexões com destino à Turquia. A partir de Guarulhos, todos os voos e roteiro em grupo.",
+      "Dia 2 (06/07/2026) – Chegada em Istambul. Bem-vindo à Turquia, um país com uma história e cultura únicas. Chegada ao Aeroporto Internacional de Istambul, encontro com a equipe local e traslado ao hotel. Acomodação.",
+      "Dia 3 (07/07/2026) – Istambul. Café da manhã. Visita às antigas muralhas de Constantinopla e ao Aqueduto Romano, bairros de Balat e Fener, Catedral de São Jorge (Patriarcado Ortodoxo), Mesquita de Solimão, Bazar das Especiarias e passeio de barco pelo Estreito de Bósforo. Retorno ao hotel, jantar e acomodação.",
+      "Dia 4 (08/07/2026) – Istambul. Café da manhã. Visita ao centro histórico: Palácio Topkapi, Hagia Sophia, Hipódromo Romano, Mesquita Azul e Grand Bazaar. Retorno ao hotel. Jantar e acomodação.",
+      "Dia 5 (09/07/2026) – Istambul / Ankara / Capadócia. Café da manhã e saída para Ankara, capital da Turquia. Visita ao Mausoléu de Atatürk. Parada no Lago Salgado e visita a uma antiga Caravanserai. Chegada à Capadócia. Jantar e acomodação.",
+      "Dia 6 (10/07/2026) – Capadócia. Café da manhã. Visita ao Museu ao Ar Livre de Göreme, vales e formações rochosas das 'Chaminés de Fadas', cidade subterrânea, centro de tapetes e de pedras preciosas. Retorno ao hotel, jantar e acomodação. (Opcional: Noite Turca e Passeio de Balão).",
+      "Dia 7 (11/07/2026) – Capadócia / Ihlara / Konya. Café da manhã. Visita ao Vale de Ihlara e parada em Kervansaray do século XIII. Em Konya, visita ao Museu e Mausoléu de Mevlana. Retorno ao hotel, jantar e acomodação.",
+      "Dia 8 (12/07/2026) – Konya / Egridir / Pamukkale. Café da manhã. Parada no Lago Egridir. Continuação a Pamukkale, visita à antiga Hierápolis e ao 'Castelo de Algodão'. Jantar e acomodação.",
+      "Dia 9 (13/07/2026) – Pamukkale / Éfeso / Izmir-Kusadasi. Café da manhã. Visita à antiga cidade de Éfeso: Teatro Romano, Biblioteca de Celso e Rua de Mármore. Visita à Casa da Virgem Maria e Basílica de São João. Parada em loja de couro e produtos têxteis locais. Jantar e acomodação.",
+      "Dia 10 (14/07/2026) – Izmir/Kusadasi / Patmos (Cruzeiro). Café da manhã. Traslado ao porto de Kusadasi e embarque em cruzeiro pelas ilhas Patmos, Rodes, Creta e Santorini.",
+      "Dia 11 (14 a 17/07/2026) – Cruzeiro. Incluso café da manhã, almoço e jantar (exceto bebidas). Cabines internas em acomodação dupla. Suplemento para cabine externa: US$ 240 por pessoa. Impostos locais obrigatórios: US$ 240 por pessoa.",
+      "Dia 12 (16/07/2026) – Navegação (cruzeiro continua).",
+      "Dia 13 (17/07/2026) – Atenas. Visita à Praça Syntagma, Parlamento, Mausoléu do Soldado Desconhecido, Estádio Olímpico, Templo de Zeus, Acrópole, Parthenon e Aerópago, onde São Paulo pregou. Jantar e pernoite.",
+      "Dia 14 (18/07/2026) – Atenas / Corinto / Atenas. Café da manhã. Visita a Corinto (cartas de São Paulo), Epidauro e Micenas. Retorno ao hotel. Jantar e acomodação.",
+      "Dia 15 (19/07/2026) – Atenas / Brasil. Traslado ao aeroporto e voo de retorno ao Brasil.",
+      "Dia 16 (20/07/2026) – Chegada no Brasil. Fim dos nossos serviços."
+    ],
+    "incluso": [
+      "Bilhetes aéreos nacionais e internacionais em classe econômica (consultar acréscimo para classe executiva).",
+      "Taxas de embarque.",
+      "Consultar franquia de bagagem disponível para o grupo.",
+      "Hospedagem em hotéis categoria 4 estrelas, quartos duplos com banheiro privativo (suplemento para apartamento individual sob consulta).",
+      "Alimentação: café da manhã e jantar, exceto em dias de voos e dias livres.",
+      "Ônibus de turismo luxo com ar-condicionado e aquecedor para todos os traslados.",
+      "Guias locais e acompanhante Canção Nova saindo do Brasil.",
+      "Seguro saúde e bagagem (acréscimo de R$ 380,00 para passageiros acima de 64 anos)."
+    ],
+    "nao_incluso": [
+      "Excesso de bagagens nos aviões.",
+      "Despesas de caráter pessoal: bebidas, lanches, telefonemas, frigobar, lavanderia etc.",
+      "Ingressos e traslados para visitas não especificadas neste roteiro.",
+      "Maleteiros.",
+      "Marcação antecipada de assentos nos voos (realizada apenas no check-in)."
+    ],
+    "preco": "R$ 28.980,00"
+  },
+  "13": {
+    "id": 13,
+    "categoria": "espiritualidade",
+    "empresa": "sao-jose",
+    "img": "img13.jpg",
+    "title": "Terra Santa - Jul",
+    "start": "07/07/2026",
+    "end": "16/07/2026",
+    "director": "Padre Altair",
+    "itinerario": [
+      "Dia 1 (07/07/2026) – Embarque em Campo Grande/MS ou sua capital x Guarulhos com destino a Tel Aviv. Embarque em sua capital com destino a Guarulhos. A partir de Guarulhos todos os voos e roteiro em grupo.",
+      "Dia 2 (08/07/2026) – Chegada a Tel Aviv. Recepção e traslado para hotel em Nazaré. Jantar e descanso.",
+      "Dia 3 (09/07/2026) – Passeio de barco pelo Mar da Galileia, Monte das Bem-Aventuranças (Missa), Igreja Ortodoxa Grega dos 12 Apóstolos, Tabgha e Cafarnaum. Retorno ao hotel. Hospedagem: Nazaré. Refeições: café da manhã, almoço e jantar.",
+      "Dia 4 (10/07/2026) – Nazaré: Basílica da Anunciação (Missa), Carpintaria de José, Fonte de Maria, Monte do Precipício, Monte Carmelo (Stella Maris) e Vale do Armagedom. Retorno ao hotel. Hospedagem: Nazaré. Refeições: café da manhã, almoço e jantar.",
+      "Dia 5 (11/07/2026) – Caná (Missa e renovação dos votos matrimoniais), Magdala Center (visita arqueológica e Missa), Rio Jordão (renovação dos votos batismais) e Monte Tabor. Retorno ao hotel. Hospedagem: Nazaré. Refeições: café da manhã, almoço e jantar.",
+      "Dia 6 (12/07/2026) – Jericó (Missa), Qumran, Mar Morto, Estalagem do Bom Samaritano, Betânia e Entrada Triunfal em Jerusalém. Hospedagem: Belém. Refeições: café da manhã, almoço e jantar.",
+      "Dia 7 (13/07/2026) – Jerusalém e Belém: Monte das Oliveiras, Igreja do Pai Nosso, Capela da Ascensão, Jardim do Getsêmani, Gruta da Traição, Assunção de Maria, Basílica da Natividade e Gruta da Manjedoura. Missa na Basílica de Belém. Hospedagem: Belém. Refeições: café da manhã, almoço e jantar.",
+      "Dia 8 (14/07/2026) – Jerusalém: Piscinas de Betesda, Basílica de Santa Ana, Via Dolorosa, Basílica do Santo Sepulcro (Missa), Muro das Lamentações, Monte Sião (Casa de Caifás, Igreja de São Pedro em Gallicantu, Cenáculo e Dormição de Maria) e Ein Karem. Retorno ao hotel. Hospedagem: Belém. Refeições: café da manhã, almoço e jantar.",
+      "Dia 9 (15/07/2026) – Traslado ao Aeroporto Ben Gurion (Tel Aviv) e voo de retorno ao Brasil.",
+      "Dia 10 (16/07/2026) – Chegada em Guarulhos/SP. Fim dos nossos serviços."
+    ],
+    "incluso": [
+      "Bilhetes aéreos nacionais e internacionais em classe econômica (para classe executiva, consultar acréscimo).",
+      "Taxas de embarque.",
+      "Consultar franquia de bagagem disponível para este grupo.",
+      "Hospedagem em hotéis categoria 4 estrelas, quartos duplos com banheiro privativo (para apartamento individual, consultar acréscimo).",
+      "Alimentação: café da manhã, almoço e jantar, exceto em dias de voos e dias livres quando houver.",
+      "Ônibus de turismo luxo com ar-condicionado e aquecedor para todos os traslados do roteiro.",
+      "Guias locais e acompanhante Loja São José saindo do Brasil.",
+      "Seguro saúde e bagagem (acréscimo de R$380,00 para passageiros acima de 64 anos)."
+    ],
+    "nao_incluso": [
+      "Excesso de bagagens nos aviões.",
+      "Despesas de caráter pessoal (bebidas, lanches, telefonemas, frigobar, lavanderia etc.).",
+      "Ingressos e traslados para visitas não especificadas neste roteiro.",
+      "Marcação antecipada de assentos (somente no check-in)."
+    ],
+    "preco": "R$ 29.980,00"
+  },
+
+
+
 }
 
