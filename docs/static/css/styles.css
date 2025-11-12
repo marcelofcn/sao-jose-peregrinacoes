@@ -406,6 +406,16 @@ body {
   box-shadow: 0 8px 20px var(--sombra);
 }
 
+.modal-content img {
+    max-height: 60vh; /* Limita a altura para não ficar gigante */
+    max-width: 100%; /* Não ultrapassa a largura do modal */
+    width: auto;
+    height: auto;
+    object-fit: contain; /* Mostra a imagem COMPLETA sem cortar */
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+    border-radius: 8px;
+}
 .img-detalhe {
   width: 100%;
   height: auto;
